@@ -21,9 +21,7 @@ Welcome to my portfolio website! This site showcases my work and projects as a f
 - **React**: For building user interfaces.
 - **TypeScript**: For type safety and enhanced development experience.
 
-## How to Run
-
-1. Clone the repository:
+## How to download the Source code
 
    ```bash
    git clone https://github.com/yourusername/your-repo-name.git
