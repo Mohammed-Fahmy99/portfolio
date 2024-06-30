@@ -2,7 +2,7 @@
 
 Welcome to my portfolio website! This site showcases my work and projects as a frontend developer.
 
-![Portfolio Screenshot](./images/hero-section.png)
+![Portfolio Screenshot](./public/images/hero-section.png)
 
 ## Features
 
