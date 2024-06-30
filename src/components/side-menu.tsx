@@ -8,7 +8,7 @@ import { BsPerson } from "react-icons/bs";
 import { GrProjects } from "react-icons/gr";
 import { useState } from "react";
 
-function Sidenav() {
+export function SideMenu() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   const handleNav = () => {
@@ -99,7 +99,7 @@ function Sidenav() {
           <AiOutlineProject size={20} />
         </a>
         <a
-          href='' download
+          href='/public/Mohammed Fahmy Resume.pdf' download
           id="pdf-file"
           className=" p-4 bg-gray-100 rounded-full shadow-lg shadow-gray-400  hover:scale-110 ease-in duration-300"
         >
@@ -116,4 +116,3 @@ function Sidenav() {
   );
 }
 
-export default Sidenav;

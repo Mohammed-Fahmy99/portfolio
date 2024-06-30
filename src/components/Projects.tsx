@@ -12,7 +12,7 @@ function Projects() {
           accusamus enim neque ea, voluptatum illo.
         </p>
       </div>
-      <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-12   ">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-12   ">
         <SingleProject
           img="https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHdlYnNpdGVzfGVufDB8fDB8fHww&auto=format&fit=crop&w=400&q=60"
           title="test 1"
@@ -30,15 +30,7 @@ function Projects() {
           img="https://images.unsplash.com/photo-1487014679447-9f8336841d58?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8d2Vic2l0ZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
           title="test 4"
         />
-        <SingleProject
-          img="https://images.unsplash.com/photo-1694231664712-91e992b4d4a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60"
-          title="test 5"
-        />
-
-        <SingleProject
-          img="https://images.unsplash.com/photo-1694168475919-dc385a48b99c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=400&q=60"
-          title="test 6"
-        />
+ 
       </div>
     </div>
   );
