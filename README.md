@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my portfolio website! This site showcases my work and projects as a frontend developer.
 
-Currently, two official plugins are available:
+![Portfolio Screenshot](./images/hero-section.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Home Section**: Introduces myself with a professional background image and links to my social media profiles.
+- **Work Section**: Lists my previous projects with brief descriptions and the duration of each project.
+- **Projects Section**: Displays images of my projects with placeholder titles for demonstration.
+- **Contact Section**: A contact form for visitors to reach out to me.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
+- **HTML5**: For the structure of the web pages.
+- **CSS3**: For styling and layout.
+- **JavaScript**: For interactive elements.
+- **React**: For building user interfaces.
+- **TypeScript**: For type safety and enhanced development experience.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## How to Run
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/your-repo-name.git
